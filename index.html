@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Gaurab Subedi Jyotish</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&family=Noto+Sans+Devanagari&display=swap" rel="stylesheet">
+
+<style>
+body{
+margin:0;
+font-family:Poppins;
+background:linear-gradient(to bottom,#fffaf0,#fff3e0);
+color:#4a1d0f;
+}
+
+/* NAV */
+nav{
+background:white;
+padding:15px;
+text-align:center;
+font-weight:600;
+box-shadow:0 2px 10px rgba(0,0,0,0.05);
+}
+
+/* HERO */
+.hero{
+text-align:center;
+padding:80px 20px;
+}
+
+.hero img{
+width:150px;
+height:150px;
+border-radius:50%;
+border:4px solid #fbbf24;
+object-fit:cover;
+}
+
+button{
+background:#f59e0b;
+border:none;
+padding:10px 20px;
+border-radius:25px;
+color:white;
+cursor:pointer;
+}
+
+/* SECTION */
+.section{
+padding:60px 20px;
+text-align:center;
+}
+
+/* CARDS */
+.grid{
+display:flex;
+flex-wrap:wrap;
+justify-content:center;
+}
+
+.card{
+background:white;
+padding:18px;
+margin:10px;
+border-radius:12px;
+width:250px;
+box-shadow:0 5px 15px rgba(0,0,0,0.05);
+}
+
+/* INPUT */
+input,select{
+padding:10px;
+margin:10px;
+border-radius:6px;
+border:1px solid #fcd34d;
+}
+
+.links a{
+display:block;
+margin:8px;
+color:#b45309;
+}
+
+.contact{
+background:white;
+padding:20px;
+border-radius:10px;
+display:inline-block;
+}
+
+footer{
+background:#7c2d12;
+color:white;
+padding:15px;
+text-align:center;
+}
+</style>
+</head>
+
+<body>
+
+<nav>🕉️ Gaurab Subedi Jyotish</nav>
+
+<section class="hero">
+<img src="your-image.jpg">
+<h1>Vedic Astrology & Ritual Services</h1>
+<p>Belfast, Northern Ireland • Worldwide Online Services</p>
+
+<a href="https://wa.me/447771822203">
+<button>📲 Book Now</button>
+</a>
+</section>
+
+<!-- SERVICES -->
+<section class="section">
+<h2>🙏 Services / सेवा</h2>
+
+<div class="grid">
+
+<div class="card">
+Naag Puja<br>नाग पूजा<br>
+<i>ॐ नागराजाय नमः</i>
+</div>
+
+<div class="card">
+Graha Shanti<br>ग्रह शान्ति<br>
+<i>ॐ नवग्रहदेवाय नमः</i>
+</div>
+
+<div class="card">
+Navaran Puja<br>नवराण पूजा<br>
+<i>ॐ ऐं ह्रीं क्लीं चामुण्डायै विच्चे</i>
+</div>
+
+<div class="card">
+Shraddha<br>श्राद्ध<br>
+<i>ॐ पितृभ्यो स्वधा नमः</i>
+</div>
+
+<div class="card">
+Panchami<br>पञ्चमी<br>
+<i>ॐ नमः शिवाय</i>
+</div>
+
+<div class="card">
+Ghar Paicho<br>घर पैँचो<br>
+<i>ॐ वास्तु देवाय नमः</i>
+</div>
+
+<div class="card">
+Shanti Path<br>शान्ति पाठ<br>
+<i>ॐ द्यौः शान्तिः अन्तरिक्षं शान्तिः</i>
+</div>
+
+<div class="card">
+Kundli Reading<br>कुण्डली<br>
+<i>ॐ ब्रह्मणे नमः</i>
+</div>
+
+</div>
+</section>
+
+<!-- KUNDLI -->
+<section class="section">
+<h2>🔮 Free Kundli Request</h2>
+
+<input type="text" id="name" placeholder="Full Name"><br>
+<input type="date" id="dob"><br>
+<input type="time" id="time"><br>
+<input type="text" id="place" placeholder="Birth Place"><br>
+
+<button onclick="kundli()">Get Kundli</button>
+</section>
+
+<!-- BOOKING -->
+<section class="section">
+<h2>📅 Book Appointment</h2>
+
+<input type="date" id="date"><br>
+
+<select id="slot">
+<option>10:00 AM</option>
+<option>1:00 PM</option>
+<option>4:00 PM</option>
+<option>7:00 PM</option>
+</select><br>
+
+<button onclick="book()">Book</button>
+</section>
+
+<!-- GLOBAL -->
+<section class="section">
+<h2>🌍 Global Services</h2>
+
+<p>🇬🇧 Belfast, Northern Ireland</p>
+<p>🌎 Online Worldwide (WhatsApp / Zoom)</p>
+
+<p>हामी नेपाल, बेलायत तथा विश्वभर सेवा प्रदान गर्दछौं।</p>
+</section>
+
+<!-- LINKS -->
+<section class="section links">
+<h2>📿 Spiritual Resources</h2>
+
+<a href="https://www.holy-bhagavad-gita.org/">Bhagavad Geeta</a>
+<a href="https://www.hamropatro.com">Hamro Patro</a>
+<a href="https://www.astrosage.com">Astrology</a>
+<a href="https://www.drikpanchang.com">Panchang</a>
+</section>
+
+<!-- CONTACT -->
+<section class="section">
+<h2>📞 Contact</h2>
+
+<div class="contact">
+<p>📍 Belfast, Northern Ireland</p>
+<p>📞 07771 822203</p>
+<p>📧 gaurabsubedi630@gmail.com</p>
+
+<a href="https://wa.me/447771822203">
+<button>WhatsApp</button>
+</a>
+</div>
+</section>
+
+<footer>
+🕉️ © 2026 Gaurab Subedi Jyotish
+</footer>
+
+<script>
+function kundli(){
+let n=document.getElementById("name").value;
+let d=document.getElementById("dob").value;
+let t=document.getElementById("time").value;
+let p=document.getElementById("place").value;
+
+if(!n||!d||!t||!p){
+alert("Fill all fields");
+return;
+}
+
+window.open("https://wa.me/447771822203?text=Kundli Request: "+n+" "+d+" "+t+" "+p);
+}
+
+function book(){
+let d=document.getElementById("date").value;
+let t=document.getElementById("slot").value;
+
+if(!d){
+alert("Select date");
+return;
+}
+
+window.open("https://wa.me/447771822203?text=Booking "+d+" "+t);
+}
+</script>
+
+</body>
+</html>
